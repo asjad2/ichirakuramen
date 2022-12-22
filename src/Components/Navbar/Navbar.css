@@ -1,0 +1,28 @@
+
+
+.ntext{
+    font-family: Roboto;
+    font-size:large;
+    margin-left: 50px;
+}
+.rtext{
+margin-left: 380px;
+}
+.logoimgsize {
+  width: 100px;
+  height: 100px;
+}
+.logi {
+  width: 80px;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+.ntext:hover {
+  border-bottom: 1px solid;
+  font-style: inherit;
+  transform: scale(1.1);
+}

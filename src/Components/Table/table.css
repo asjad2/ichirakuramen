@@ -1,0 +1,8 @@
+.data-table{
+    margin-top: 30px;
+    margin-left: 75px;
+}
+
+.tablebutton:hover{
+transform: scale(3px);
+}

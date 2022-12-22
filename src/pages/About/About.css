@@ -1,0 +1,25 @@
+
+.sushi {
+  width: 100%;
+  height: 100%;
+}
+.about__text p {
+  font-family: Roboto;
+  font-style: italic;
+  font-size:medium;
+  width:100%;
+  font-weight: 800;
+  color: rgb(0, 0, 0);
+  
+}
+.about__btn {
+  width: 120px;
+  height: 40px;
+  justify-content: center;
+  margin-left: 38%;
+  border-radius: 5%;
+  background-color: rgb(249, 102, 100);
+}
+.btext {
+  margin-top: 10px;
+}

@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+section {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-template-rows: auto;
+}
+.card2 {
+  width: 250px;
+  height: 400px !important;
+  padding: 5px;
+  margin-top: 30px;
+}
+.card2:hover {
+  transform: scale(1.04);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.gf {
+  background-color: #f48c06;
+  width: 100%;
+}
+.top-img {
+  width: 100%;
+}
+
+.card-title {
+  font-family: Roboto;
+  font-size: x-large;
+  
+  font-weight: 800;
+  color: rgb(0, 0, 0);
+}
+.card-text {
+  font-family: Roboto;
+  font-size: large;
+  
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+#btn1 {
+  font-style: italic;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: 700;
+  border-bottom: 2px solid black;
+}
+#btn1:hover {
+  font-style: italic;
+  background: #ff0000;
+  color: white;
+}

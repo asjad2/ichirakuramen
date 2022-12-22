@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  
+}
+.divheader2 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(3, 2fr);
+  grid-template-rows: auto;
+  justify-items: center;
+  margin-bottom: 20px;
+  
+  
+}
+#fff1{
+  border-radius: 50px;
+}
+#fff2{
+  border-radius: 50px;
+}
+#fff3{
+  border-radius: 50px;
+}
+.firsth2 {
+  width: 80%;
+
+  margin-left: 10%;
+}
+.h2img {
+  height: 160px;
+  width: 160px;
+  margin-bottom: 10px;
+  justify-items: center;
+  align-items: center;
+  border-radius: 100%;
+}
+
+.card{
+  border-radius: 500px;
+}
+.cardi {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 50px;
+  max-height: 340px;
+  padding: 30px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+  
+}
+.cardi:hover {
+  transform: scale(1.02);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.h2h2 {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 64px;
+
+  font-size: 2rem;
+}
+.h2h1 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+.h2p {
+  font-size: 1rem;
+  text-align: center;
+}
+#cardi1{
+  border-radius: 50px;
+  margin-top: 20px;
+}
+#cardi2{
+  border-radius: 50px;
+}
+#cardi3{
+  border-radius: 50px;
+}
+.divheader2 img{
+height: 100px;
+width: 100px;
+
+}
+.header2main{
+  margin-top: 40px;
+}

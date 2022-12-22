@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.footi{
+    background-color: rgb(27, 27, 25);
+    height: 170px;
+    font-family: Roboto;
+    font-size:larger;
+   display: flex;
+   
+    
+}
+
+.text-mut{
+    color: rgb(255, 0, 0) !important;
+}
+.text-mut:hover{
+    color: rgb(245, 245, 245) !important;
+    border-bottom: 1px solid;
+    font-style: inherit;
+    transform: scale(1.1);;
+}
+.logii{
+    width: 30%;
+    height: 30%;
+   color: rgb(253, 253, 253) ;
+}
+.fb{
+    margin-top: -90px;
+    margin-right: 50%;
+}
+.social{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+   
+  margin-right: 40px;
+  
+}
+
+.socialicons{
+    margin-right: 70px;
+}
+.socialfooer :hover{
+    color: rgb(253, 0, 0);
+    border-bottom: 2px solid rgb(0, 89, 255);
+}
+.socialfooer {
+    color: rgb(224, 224, 224);
+    border-bottom: 2px solid rgb(0, 89, 255);
+}

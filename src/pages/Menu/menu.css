@@ -1,0 +1,16 @@
+.menu {
+  display: flex;
+  position: relative;
+}
+.menucard {
+  background-color: #aa6c39;
+}
+.sidemenu {
+  width: 100%;
+  position: sticky;
+  height: 100vh;
+  top: 0;
+}
+section {
+  justify-items: center;
+}
