@@ -8,7 +8,7 @@ const Navbar = ({ setShow, size}) => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-dark">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/restaurant">
+        <Link className="navbar-brand" to="/ichirakuramen">
           <img className="logi" src={logi} alt="logo" />
         </Link>
         <button
@@ -28,7 +28,7 @@ const Navbar = ({ setShow, size}) => {
               <Link
                 className="nav-link active text-danger rtext ntext"
                 aria-current="page"
-                to="/restaurant"
+                to="/ichirakuramen"
                
               >
                 Home
@@ -38,7 +38,7 @@ const Navbar = ({ setShow, size}) => {
               <Link
                 className="nav-link active text-danger ntext"
                 aria-current="page"
-                to="/restaurant/menu"
+                to="/ichirakuramen/menu"
                 onClick={() => setShow()}
               >
                 Menu
@@ -48,7 +48,7 @@ const Navbar = ({ setShow, size}) => {
               <Link
                 className="nav-link active text-danger ntext"
                 aria-current="page"
-                to="/restaurant/membership"
+                to="/ichirakuramen/membership"
               >
                 Membership
               </Link>
@@ -57,7 +57,7 @@ const Navbar = ({ setShow, size}) => {
               <Link
                 className="nav-link active text-danger ntext mr-70"
                 aria-current="page"
-                to="/restaurant/about"
+                to="/ichirakuramen/about"
               >
                 About
               </Link>
@@ -66,7 +66,7 @@ const Navbar = ({ setShow, size}) => {
               <Link
                 className=" cart nav-link active text-danger ntext mr-70"
                 aria-current="page"
-                to="/restaurant/cart"
+                to="/ichirakuramen/cart"
                 onClick={() => setShow()}
                 
               >

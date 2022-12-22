@@ -81,7 +81,7 @@ function Loginpage(props) {
               <button type="submit" className="btn primary btn-block p-x-md">
               Sign in
             </button>
-            <Link to="/restaurant/signup">
+            <Link to="/ichirakuramen/signup">
             <button type="submit" className="btn primary btn-block p-x-md">
               Sign Up
             </button>

@@ -21,7 +21,7 @@ const Header = () => {
               Naruto Likes"
             </p>
             <Link
-              to="/restaurant/menu"
+              to="/ichirakuramen/menu"
               className="  text-light nav-link active"
             >
               <button className="banner__btn ">Itadakimasu</button>

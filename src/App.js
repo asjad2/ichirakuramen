@@ -43,16 +43,16 @@ function getAuthenticate(value){
      
       <Navbar setShow={setShow} size={cart.length} />
       <Routes>
-          <Route exact path="/restaurant" element={<Home />}></Route>
-          <Route exact path="restaurant/menu" element={<Menu handleClick={handleClick} />}></Route>
-          <Route exact path="restaurant/cart" element={<Cart  cart={cart} setCart={setCart}  handleChange={handleChange}/>}></Route>
-          <Route exact path="restaurant/about" element={<About />}></Route>
-          <Route exact path="restaurant/checkout" element={<Checkout />}></Route>
-          <Route exact path="restaurant/about" element={<About />}></Route>
-          <Route exact path="restaurant/membership" element={<Loginpage uplifter={getAuthenticate} />}></Route>
-          <Route exact path="restaurant/signup" element={<Form/>}></Route>
-          <Route exact path="restaurant/list" element={auth ? <List /> : <Loginpage uplifter={getAuthenticate}/>}></Route> 
-          <Route exact path="/restaurantedit/:id" element={<Form1/>}></Route> 
+          <Route exact path="/ichirakuramen" element={<Home />}></Route>
+          <Route exact path="/ichirakuramen/menu" element={<Menu handleClick={handleClick} />}></Route>
+          <Route exact path="/ichirakuramen/cart" element={<Cart  cart={cart} setCart={setCart}  handleChange={handleChange}/>}></Route>
+          <Route exact path="/ichirakuramen/about" element={<About />}></Route>
+          <Route exact path="/ichirakuramen/checkout" element={<Checkout />}></Route>
+          <Route exact path="/ichirakuramen/about" element={<About />}></Route>
+          <Route exact path="/ichirakuramen/membership" element={<Loginpage uplifter={getAuthenticate} />}></Route>
+          <Route exact path="/ichirakuramen/signup" element={<Form/>}></Route>
+          <Route exact path="/ichirakuramen/list" element={auth ? <List /> : <Loginpage uplifter={getAuthenticate}/>}></Route> 
+          <Route exact path="/ichirakuramen/edit/:id" element={<Form1/>}></Route> 
           {/* <Route exact path="/list" element={<List/>}></Route>  */}
 
         </Routes>

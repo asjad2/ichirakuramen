@@ -51,7 +51,7 @@ const Cart = ({ cart, setCart, handleChange }) => {
         <span>Total Price</span>
         <span> {price} ¥</span>
       </div>
-      <Link to="/checkout"><button className="btn " id="checkoutbutton">Checkout</button></Link>
+      <Link to="/ichirakuramen/checkout"><button className="btn " id="checkoutbutton">Checkout</button></Link>
     </article>
   );
 };

@@ -11,7 +11,7 @@ const Footer = () => {
         <p className="col-md-4 mb-0 text-mut">&copy; 2022 Company, Inc</p>
 
         <Link
-          to="/restaurant"
+          to="/ichirakuramen"
           className="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
         >
           <img src={logi} alt=""  className="logii "/>
@@ -19,17 +19,17 @@ const Footer = () => {
 
         <ul className="nav col-md-4 justify-content-end d-flex ftext my-4  ">
           <li className="nav-item">
-            <Link  to="/restaurant"className="nav-link px-2 text-muted ">
+            <Link  to="/ichirakuramen"className="nav-link px-2 text-muted ">
               <p className="text-mut">Home</p> 
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/restaurant" className="nav-link px-2 text-muted">
+            <Link to="/ichirakuramen" className="nav-link px-2 text-muted">
             <p className="text-mut">Features</p> 
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/restaurant/list" className="nav-link px-2 text-muted">
+            <Link to="/ichirakuramen/list" className="nav-link px-2 text-muted">
             <p className="text-mut">List</p> 
             </Link>
           </li>
@@ -39,7 +39,7 @@ const Footer = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/restaurant/about" className="nav-link px-2 text-muted">
+            <Link to="/ichirakuramen/about" className="nav-link px-2 text-muted">
               <p className="text-mut">About</p> 
             </Link>
           </li>
